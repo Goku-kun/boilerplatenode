@@ -46,7 +46,7 @@ function printHelp() {
     console.log("");
     console.log("");
     console.log("Defaults:");
-    console.log("If the --file=[name] is not specified, the default value of file would be index.js");
+    console.log("If the --file=[NAME] is not specified, the default name of the file created would be index.js");
     console.log("If no options are specified, just the shebang for execution will be written and strict mode will be enabled in the file.");
     console.log("");
     console.log("Example:");
