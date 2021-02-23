@@ -23,15 +23,15 @@ It doesn't have any dependencies and hence it'll work with a system that has nod
 
 1. To access help use `--help` flag.
 
-![print Help](./resources/images/printHelp.png)
+![print Help](https://github.com/Goku-kun/boilerplatenode/blob/main/resources/images/printHelp.png)
 
 2. Use the `--out` flag to see the content that will be written to the file.
 
-![print Help](./resources/images/printToConsole.png)
+![print Help](https://github.com/Goku-kun/boilerplatenode/blob/main/resources/images/printToConsole.png)
 
 3. Use the `--file [NAME]` option to enter a filename without the .js extension or the default created file would be named index.js.
 
-![print Help](./resources/images/finalOutput.png)
+![print Help](https://github.com/Goku-kun/boilerplatenode/blob/main/resources/images/finalOutput.png)
 
 ## Technologies
 
