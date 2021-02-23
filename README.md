@@ -20,13 +20,17 @@ Instead of having to create .js files and having to import same utilities time a
 It doesn't have any dependencies and hence it'll work with a system that has node installed without requiring anything else.
 
 ## Screenshots
+
 1. To access help use `--help` flag.
+
 ![print Help](./resources/images/printHelp.png)
 
 2. Use the `--out` flag to see the content that will be written to the file.
+
 ![print Help](./resources/images/printToConsole.png)
 
 3. Use the `--file [NAME]` option to enter a filename without the .js extension or the default created file would be named index.js.
+
 ![print Help](./resources/images/finalOutput.png)
 
 ## Technologies
