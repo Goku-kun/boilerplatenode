@@ -1,6 +1,6 @@
 # boilerplatenode
 
-> This is a node cli application intended for generating the starter code for any node file, module or package.
+> This is a node cli package intended for generating the starter code for any node file, module or package.
 
 ## Table of contents
 
@@ -20,29 +20,40 @@ Instead of having to create .js files and having to import same utilities time a
 It doesn't have any dependencies and hence it'll work with a system that has node installed without requiring anything else.
 
 ## Screenshots
-<!-- ![Example screenshot](./img/screenshot.png) -->
+1. To access help use `--help` flag.
+![print Help](./resources/images/printHelp.png)
+
+2. Use the `--out` flag to see the content that will be written to the file.
+![print Help](./resources/images/printToConsole.png)
+
+3. Use the `--file [NAME]` option to enter a filename without the .js extension or the default created file would be named index.js.
+![print Help](./resources/images/finalOutput.png)
 
 ## Technologies
 
 * NodeJS - version 14.15.0
 * Windows Terminal
-* Bash shell
+* Bash shell and any other POSIX based environment.
 
 ## Setup
 
-<!-- TODO: -->
+1. Install Node from [NodeJS.org](https://nodejs.org/en/)
+2. Clone the [git repository](https://github.com/Goku-kun/boilerplatenode) and cd into the repository.
+3. Use the command `npm link boilerplatenode`.
+4. You can now use this as an executable command systemwide as `boilerplatenode --file [NAME] [options]` or `bpn --file [NAME] [options]`.
+5. print help using `boilerplatenode --help`.
 
 ## Features
-<!-- List of features ready and TODOs for future development
-* boilerplate feature
-* boilerplate feature
-* boilerplate feature -->
+
+* Use systemwide after linking.
+* 0 dependencies; Only uses node core modules.
+* Automate the workflow by generating .js files on the file with this package.
 
 To-do list:
 
-* ADD functionality for passing filename as option in the shell environment.
+* ADD functionality for passing filename as option in the shell environment. ✅
 * Write unit tests for the functionality.
-* Make it more flexible by passing number of files to be generated.
+* Make it more flexible by passing number of files to be generated. 
 
 ## Status
 
@@ -56,6 +67,7 @@ The sole inspiration for creating this package is to automate the daily task of 
 ## Contact
 
 Created by [@Goku-kun](https://www.github.com/Goku-kun) - feel free to contact me!
+Link to this [repository](https://github.com/Goku-kun/boilerplatenode).
 
 ## License
 
